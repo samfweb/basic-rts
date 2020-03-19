@@ -26,14 +26,18 @@ These guys can build things. They'll be invaluable in your journey.
 #### Engineer
 Engineers can mine resources.
 
+Move an Engineer near a resource and it will begin collecting.
+
+Engineers will automatically move to deposit at the nearest command centre once their backpacks are full. After depositing, they'll return to their original spot to continue collecting.
+
 #### Truck
-Trucks can be deployed into a command centre, destructing in the process. Deploy wisely, and you can't pack a command centre back up.
+Trucks can be deployed into a command centre, destructing in the process. Deploy wisely, you can't pack a command centre back up.
 
 ### Buildings
 #### Command Centre
 This is your hub, your home, your only safe space on an inhospitable alien wasteland.
 
-Engineers deposit resources here, and you can train most units here.
+Engineers deposit resources here, and new units can be trained.
 
 #### The Factory
 Factories can train the only unit command centres can't: the truck.
@@ -41,7 +45,15 @@ Factories can train the only unit command centres can't: the truck.
 #### Pylon 
 Why is this here? Who created it? A shroud of mystery surrounds these inactive monoliths. 
 
-Activating a pylon lets your engineers collect resources faster, don't ask me why.
+Activating a pylon lets your engineers collect resources faster (somehow).
+
+### Resouces
+Engineers can mine resources.
+#### Metal
+You can mine metal from metal mines. You can use it for pretty much anything. It's tremendous metal. 
+
+#### Unobtanium
+Slightly easier to obtain than the name suggests. Doesn't serve a direct purpose, other than something to strive for.
 
 ## Troubleshooting
 If you're having trouble starting the game, make sure that the proper libraries have been added to your classpath. The `libjinput` libraries included in `lib/` are for a linux 64bit machine. If using a different machine, you may need to download the relevant `libjinput` libraries at https://github.com/jinput/jinput/wiki/Getting-started-with-JInput.
