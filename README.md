@@ -1,5 +1,12 @@
 # A Basic Sci-Fi themed RTS
-A basic RTS created using the Slick2D library, with a strong focus on OOP.
+A basic RTS created using the Slick2D library, with a strong focus on OOP. 
+
+This was made early 2019.
+
+# Source Code Dependencies
+Add `slick` and the `libj*` libraries in `lib/` to your path.
+
+The `libjinput` libraries included in `lib/` are for a linux 64bit machine. If using a different machine, you may need to download the relevant `libjinput` libraries at https://github.com/jinput/jinput/wiki/Getting-started-with-JInput.
 
 ## Playing the Game
 Collect Unobtanium; feel great.
@@ -56,8 +63,6 @@ You can mine metal from metal mines. You can use it for pretty much anything. It
 Slightly easier to obtain than the name suggests. Doesn't serve a direct purpose, other than something to strive for.
 
 ## Troubleshooting
-If you're having trouble starting the game, make sure that the proper libraries have been added to your classpath. The `libjinput` libraries included in `lib/` are for a linux 64bit machine. If using a different machine, you may need to download the relevant `libjinput` libraries at https://github.com/jinput/jinput/wiki/Getting-started-with-JInput.
-
 If something is broken, please let me know! I haven't touched this in a while. 
 
 The project was built using Java 1.8, and I've found there's less issues when using this version. Using Java 13, the application won't start. 
